@@ -74,15 +74,15 @@ OBJECTS of dictionaries retrived by KEY name. UNORDERED and cannot be SORTED.
 #
 ## #3
 ## MAKING A PARTICULAR ELEMENT UPPERCASE
-#d = {'key1': ['a', 'b', 'c']}
-#mylist = d['key1'] # mylist-->['a', 'b', 'c']
-#letter = mylist[2] # -->'c'
-#print(letter)
-#print(letter.upper()) # -->'C' # DOESNT MUTE
-#print(letter) # --'c' # NO CHANGES HAPPENED
-## IN ORDER TO MUTE
-#a = letter.upper() # WILL BE ASSIGNED TO a
-#print(a) # --> 'C'
+# d = {'key1': ['a', 'b', 'c']}
+# mylist = d['key1'] # mylist-->['a', 'b', 'c']
+# letter = mylist[2] # -->'c'
+# print(letter)
+# print(letter.upper()) # -->'C' # DOESNT MUTE
+# print(letter) # --'c' # NO CHANGES HAPPENED
+# # IN ORDER TO MUTE
+# a = letter.upper() # WILL BE ASSIGNED TO a
+# print(a) # --> 'C'
 #
 #
 #
@@ -96,23 +96,23 @@ OBJECTS of dictionaries retrived by KEY name. UNORDERED and cannot be SORTED.
 #
 #### #5
 ## OVERWRITING NEW VALUE
-#d = {'k1': 100, 'k2': 200, 'k3': 300}
-#d['k1'] = 'new value' #  -->{'k1': 'new value', 'k2': 200, 'k3': 300}
+# d = {'k1': 100, 'k2': 200, 'k3': 300}
+# d['k1'] = 'new value' #  -->{'k1': 'new value', 'k2': 200, 'k3': 300}
 #print(d)
 #
 #
 #
 #### #6
 ## GETTING KEYS d.keys()
-#d = {'k1': 100, 'k2': 200, 'fruit':'apple'}
-#print(d.keys()) # -->dict_keys(['k1', 'k2', 'fruit']) #tuple
+# d = {'k1': 100, 'k2': 200, 'fruit':'apple'}
+# print(d.keys()) # -->dict_keys(['k1', 'k2', 'fruit']) #tuple
 #
 #
 #
 ### #7
 ### GETTING VALUES d.values()
-#d = {'k1': 100, 'k2': 200, 'fruit': 'orange'}
-#print(d.values()) # -->dict_values([100, 200, 'orange']) #tuple
+# d = {'k1': 100, 'k2': 200, 'fruit': 'orange'}
+# print(d.values()) # -->dict_values([100, 200, 'orange']) #tuple
 #
 #
 #
